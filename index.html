@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>겜소 포털</title>
+    <link href="style.css" rel="stylesheet" type ="text/css" />
+    <style>
+      .header
+      {     
+        background :white;
+        border-bottom: 1px solid black ;
+        color : black;
+        font-size : 20px;
+        
+        
+      }
+      .nav
+      { 
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        background: rgb(22, 235, 15);
+        color : white;
+        
+      }
+
+      .nav-right-items
+      {
+        display:flex ;
+        margin-left: -10px;
+      }
+
+      .nav-item
+      {
+        margin-left: 10px;
+        
+      }
+
+      .title
+      {
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 30px;
+        color:white;
+        text-shadow: 1.5px 1.5px white;
+      }
+
+      .subtitle
+      {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        color:white;
+        margin : 5px;
+      }
+
+      .main
+      {
+        width: 800px;
+        height: 900px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+      .prices{
+        display: flex;
+      }
+
+      .price-item{
+        width: 600px;
+        height: 450px;
+        border: 2px solid white;
+        margin: 4px;
+        text-align: center;
+        
+        /* border: 3px black;
+        margin-bottom:40px;
+        margin-left :50px;
+        width: 500px;
+        margin: 2px; */
+        
+      }
+
+      .price-item-button 
+      {
+        color: #6ab1ce;
+        background-color: transparent;
+        background-image: none;
+        border-color: #196481;
+        font-size: 35px;
+        padding: 0.10rem 3rem;
+        line-height: 1.5;
+        
+        
+
+      }
+
+      .price-item-title
+      {
+        font-size: 50px;
+        text-align: center;
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 2px solid white;
+        color :white;
+      }
+
+      .price-item-price{
+        font-size: 25px;
+        font-weight:bold;
+        padding: 10px;
+        color: white;
+      }
+
+      .footer
+      {
+        border-top : black;
+        clear: both;
+        background:rgb(22, 114, 57);
+        width : 100%;
+        height: 30px;
+        font-size:20px;
+        
+        
+        
+      }
+      
+
+       #showcase{
+         
+         background: url('../img/lol.PNG');
+         background-size: 100% 100%;
+         
+       }
+       
+       #introd{
+         min-height:100px;
+         
+       }
+
+       .nav-item{
+         color:white;
+       }
+
+       .body{
+         width:100%;
+         height:100%;
+         
+       }
+
+       
+      
+    </style>
+   
+</head>
+<body class="body">
+
+  <header class="header">게임추천 사이트 겜소</header>
+
+  
+  <section id = "introd">
+  <div class="nav">
+    <div class="nav-right-items">
+
+      <a href='index.html' class="nav-item" >HOME</a>
+      <a href='intro.html' class="nav-item">소개</a>
+      <a href='lol.html' class="nav-item">RPG(Role-Playing-Game)</a>
+      <a href='battle.html' class="nav-item">FPS(First Person Shooting)</a>
+      <a href='lost.html' class="nav-item">AOS(Aeon of Strife)</a>
+                 
+    </div>
+  </div>
+  <section id="showcase">
+  <div class="main">
+    <div class="title">
+      겜소
+    </div>
+
+  <div class="subtitle">
+      게임추천 사이트 겜소에 오신것을 환영합니다.
+  </div>
+    
+  <div class="prices">
+    <div class="price-item">
+      <div class="price-item-title">
+        RPG
+      </div>
+    
+      <div class="price-item-price">
+        플레이어가<br> 게임 속 하나의<br> 캐릭터를 맡으며<br> 전개해나가는 게임!<br> 모험의 세계에서<br> 당신을 기다리고<br> 있습니다.
+      </div>
+
+      <!-- <div class="price-item-detail">
+        123
+      </div> -->
+      
+      <button type ="button" class="price-item-button">
+        <a href='lost.html'>clike me</a>
+      </button>
+    </div>
+
+    <!--  -->
+    <div class="price-item">
+      <div class="price-item-title">
+        FPS
+      </div>
+      
+      <div class="price-item-price">
+        기관총,저격총,권총<br> 등 다양한 무기를<br> 습득하여 <br>다른 플레이어와 <br>싸우는 1인칭, 3인칭 <br>슈팅게임!<br> 1인자의 자리를<br> 차지해보세요!
+      </div>
+    
+      <!-- <div class="price-item-detail">
+        123
+      </div> -->
+      <button type ="button" class="price-item-button">
+        <a href='battle.html'>clike me</a>
+      </button>
+    </div>
+
+    <!--  -->
+    <div class="price-item">
+      <div class="price-item-title">
+        AOS
+      </div>
+     
+      <div class="price-item-price">
+        여러 플레이어들과<br> 팀을 이루어<br> 영원히 싸우는 <br>AOS!<br> 최고의 팀을 이루어<br> 전장에 참여하세요!
+      </div>
+    
+      <!-- <div class="price-item-detail">
+        123
+      </div> -->
+      <button type ="button" class="price-item-button">
+        <a href='lol.html'>clike me</a>
+      </button>
+
+      
+    </div>
+
+    
+    
+  </div>
+  
+</div>
+<footer class="footer">"Copyright 2021.중부대학교 정보보호학과 김정민"</footer>
+
+  <script src="script.js"></script>
+
+</section>
+</section>
+</body>
+</html>
